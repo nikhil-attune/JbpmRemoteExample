@@ -15,6 +15,10 @@
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Task]]></drools:metaValue>
         </drools:metaData>
+		<drools:onExit-script scriptFormat="http://www.java.com/java">
+          <drools:script><![CDATA[System.out.println("Hello World");
+}]]></drools:script>
+        </drools:onExit-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_FBBCC58E-5586-455F-B397-508CD3A89BFE</bpmn2:incoming>
       <bpmn2:outgoing>_C026317B-A5CB-4B48-91E1-F5401E6E5FAB</bpmn2:outgoing>
